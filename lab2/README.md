@@ -9,6 +9,7 @@
 5. В docker-compose должен быть сайдкар для lets encrypt
 
 ### ToDo:
+- Certbot
 - Run as Non-root User
 
 ### Comments:

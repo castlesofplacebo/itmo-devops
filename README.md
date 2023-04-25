@@ -6,4 +6,4 @@
 *Lab5:* Done  
 *Lab6:* In Progress  
 *Lab7:* Done  
-*Lab8:* In Progress  
+*Lab8:* Done    

@@ -1,3 +1,6 @@
 [submodule "lab7/lab7-gitlab-ci"]
 	path = lab7/lab7-gitlab-ci
 	url = https://gitlab.com/itmo-devops-course/lab7-gitlab-ci
+[submodule "lab8/lab7-gitlab-ci"]
+	path = lab8/lab7-gitlab-ci
+	url = https://gitlab.com/itmo-devops-course/lab7-gitlab-ci

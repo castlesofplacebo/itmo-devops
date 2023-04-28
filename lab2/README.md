@@ -9,7 +9,6 @@
 5. В docker-compose должен быть сайдкар для lets encrypt
 
 ### ToDo:
-- Certbot
 - Run as Non-root User
 
 ### Comments:
@@ -22,3 +21,5 @@
 - https://github.com/nginxinc/docker-nginx/blob/5ce65c3efd395ee2d82d32670f233140e92dba99/Dockerfile-alpine-slim.template
 - https://hub.docker.com/_/nginx
 - https://github.com/nginx/nginx/blob/master/conf/nginx.conf
+- https://www.programonaut.com/setup-ssl-with-docker-nginx-and-lets-encrypt/#automate-ssl-certificates-with-certbot
+- https://mindsers.blog/post/https-using-nginx-certbot-docker/

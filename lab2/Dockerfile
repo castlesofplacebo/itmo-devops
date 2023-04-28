@@ -53,6 +53,6 @@ COPY --from=build /etc/nginx /etc/nginx
 
 STOPSIGNAL SIGQUIT
 
-EXPOSE 8080
+EXPOSE 80
 
 CMD ["/usr/sbin/nginx", "-g", "daemon off;"]

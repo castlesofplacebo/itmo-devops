@@ -6,8 +6,17 @@ services:
         context: .
         dockerfile: Dockerfile
     volumes:
-      - /tmp/static:/usr/share/nginx/html
-      - /tmp/config:/etc/nginx/conf.d
+      - ./static:/usr/share/nginx/html
+      - ./config/nginx.conf:/etc/nginx/nginx.conf
+      - ./certbot/conf:/etc/letsencrypt
+      - ./certbot/www:/var/www/certbot
     restart: always
     ports:
-        - "8080:8080"
+        - 80:80
+        - 443:443
+  certbot:
+    image: certbot/certbot
+    container_name: certbot
+    volumes: 
+      - ./certbot/conf:/etc/letsencrypt
+      - ./certbot/www:/var/www/certbot
